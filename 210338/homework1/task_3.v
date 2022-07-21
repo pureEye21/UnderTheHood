@@ -9,7 +9,7 @@ module one_bit_adder(
 endmodule
 
 module four_bit_sub1(
-    input wire [7:0] a, b, 
+    input wire [3:0] a, b, 
     output wire [3:0] r, output wire c_out1
     // * 7 6 .. 0
 );
@@ -25,7 +25,7 @@ module four_bit_sub1(
 endmodule
 
 module four_bit_sub2(
-    input wire [7:0] a, b, input c_out1,
+    input wire [3:0] a, b, input c_out1,
     
     output wire [3:0] r, output wire c_out2
     // * 7 6 .. 0
